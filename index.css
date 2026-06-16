@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=Noto+Sans+Myanmar:wght@400;500;600;700&family=Fira+Code:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "Noto Sans Myanmar", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", "Noto Sans Myanmar", sans-serif;
+  --font-mono: "Fira Code", monospace;
+
+  /* Custom Myanmar Palace/Royal theme colors */
+  --color-royal-burgundy: #500a15;
+  --color-royal-crimson: #801323;
+  --color-royal-gold: #cfa832;
+  --color-royal-amber: #f2c744;
+  --color-royal-dark: #12090b;
+}
+
+body {
+  background-color: var(--color-royal-dark);
+  color: #fce7f3;
+  font-family: var(--font-sans);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #12090b;
+}
+::-webkit-scrollbar-thumb {
+  background: #801323;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #cfa832;
+}

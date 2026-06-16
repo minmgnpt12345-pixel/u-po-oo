@@ -1,0 +1,6 @@
+{
+  "name": "U Paw Oo AI - ဦးပေါ်ဦး ဟာသ",
+  "description": "အမတ်ကြီး ဦးပေါ်ဦး၏ ပညာရှိဉာဏ်၊ ရွှေဉာဏ်တော်နှင့် ဟာသဉာဏ်များကို အပြန်အလှန် လေ့လာဆွေးနွေးနိုင်သော AI စနစ်",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
